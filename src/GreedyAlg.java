@@ -32,8 +32,18 @@ public class GreedyAlg {
         return 0;
     }
 
+    public int eraseOverlapIntervals(int[][] intervals) {
+        if(intervals.length == 0) {
+            return 0;
+        }
+        int n = intervals.length;
+
+
+        return 0;
+    }
+
     public static void main(String[] args) {
-        int[] arr = {1,0,2};
-        System.out.println(Arrays.toString(arr));
+        int[][] arr = {{1,2}, {2,4}, {1,3}};
+        System.out.println(arr.length);
     }
 }
